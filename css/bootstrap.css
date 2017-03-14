@@ -14,6 +14,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/* fonts */
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1088,7 +1092,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans JP", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: #333333;
@@ -1338,6 +1342,10 @@ mark,
 }
 .text-capitalize {
   text-transform: capitalize;
+}
+.text-emphasis {
+  font-weight: bold;
+  color: #bd4147;
 }
 .text-muted {
   color: #777777;
@@ -4860,6 +4868,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   vertical-align: baseline;
   border-radius: .25em;
 }
+.label-jp {
+  display: inline;
+  padding: .08em .6em .15em;
+  font-size: 75%;
+  font-weight: normal;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
 a.label:hover,
 a.label:focus {
   color: #ffffff;
@@ -4872,6 +4892,10 @@ a.label:focus {
 .btn .label {
   position: relative;
   top: -1px;
+}
+.label-jp {
+    position: relative;
+    top: -1px;
 }
 .label-default {
   background-color: #777777;
@@ -5996,7 +6020,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans JP", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6114,7 +6138,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans JP", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
