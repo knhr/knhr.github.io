@@ -16,7 +16,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /* fonts */
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+/* @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css); */
 
 html {
   font-family: sans-serif;
