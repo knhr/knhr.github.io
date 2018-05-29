@@ -2,3 +2,35 @@ li.pub-item
 {
     margin: 0ex 0ex 1ex 0ex;
 }
+
+.label-jp {
+    top: -1px;
+    position: relative;
+    display: inline;
+    padding: .078em .6em .148em;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 1;
+    vertical-align: baseline;
+    border-radius: .25em;
+    white-space: nowrap;
+    text-align: center;
+    color: #fff
+}
+
+.label-en
+{
+    top: -1px;
+    position: relative;
+    display: inline;
+    padding: .017em .6em .152em;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 1;
+    vertical-align: baseline;
+    border-radius: .25em;
+    white-space: nowrap;
+    text-align: center;
+    color: #fff
+}
+
