@@ -34,3 +34,7 @@ li.pub-item
     color: #fff
 }
 
+.label-within-li-first
+{
+    margin-left: 4px;
+}
